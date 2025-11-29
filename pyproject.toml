@@ -35,3 +35,4 @@ local_scheme = "no-local-version"
 [project.scripts]
 the-bee-answers = "the_bee.answers:main"
 the-bee-format-answers = "the_bee.format_answers:main"
+the-bee-website = "the_bee.website:main"
