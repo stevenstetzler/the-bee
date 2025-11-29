@@ -33,6 +33,7 @@ jobs:
         run: |
           rm -rf public
           mkdir -p public
+          cp bee.jpg public/bee.jpg
           cp index.html public/index.html
 
       - name: Deploy to gh-pages
