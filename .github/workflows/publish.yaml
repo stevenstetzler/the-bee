@@ -27,7 +27,7 @@ jobs:
 
       - name: Run script
         run: |
-          the-bee-answers today > index.html
+          the-bee-answers today | the-bee-format-answers > index.html
 
       - name: Prepare deploy directory
         run: |
