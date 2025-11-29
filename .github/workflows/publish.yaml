@@ -1,6 +1,8 @@
 name: Run Python Script
 
 on:
+  schedule:
+  - cron: "0 9 * * *"   # every day at 09:00 UTC
   push:
     branches: [ main ]
   workflow_dispatch:
