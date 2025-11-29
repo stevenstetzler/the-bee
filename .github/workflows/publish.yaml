@@ -27,7 +27,7 @@ jobs:
 
       - name: Run script
         run: |
-          the-bee-answers > index.html
+          the-bee-answers today > index.html
 
       - name: Prepare deploy directory
         run: |
@@ -45,4 +45,3 @@ jobs:
           user_email: github-actions[bot]@users.noreply.github.com
           commit_message: "Deploy updated answers (action)"
 
-          
